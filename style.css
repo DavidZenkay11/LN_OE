@@ -129,3 +129,55 @@ a{
     text-align: center;
 }
 
+.container2 {
+    width: 950px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.container2 .hexagonArea2 {
+    display: flex;
+
+}
+
+.container2 .hexagonArea2 .last {
+    transform: translateY(-45px);
+}
+
+.container2 .hexagonArea2 .hexagon2 {
+    position: relative;
+    width: 200px;
+    height: 250px;
+    margin: 0 10px;
+    clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+    background: rgb(208, 20, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: inherit;
+    transition: .5s;
+
+
+}
+
+.container2 .hexagonArea2 .hexagon2:hover {
+
+    background: rgb(169, 20, 255);
+
+
+}
+
+.container2 .hexagonArea2 .hexagon2 a {
+    font-size: 1.5rem;
+}
+
+.container ul {
+    color: whitesmoke
+}
+
+* {
+    text-align: center;
+}
